@@ -2,18 +2,21 @@
 pretty simple css for compact sidebar workflow - supports all operating systems (mac, win, linux)
 
 ## screenshots
-
-<img width="800" height="1024" alt="Screenshot 2025-08-13 at 11 06 46 PM" src="https://github.com/user-attachments/assets/61ccb67c-3059-461e-991d-552ff87ba3cd" />
+<img width="600" height="1024" alt="Screenshot 2025-08-13 at 11 06 46 PM" src="https://github.com/user-attachments/assets/61ccb67c-3059-461e-991d-552ff87ba3cd" />
 
 #### centered floating search bar - activate with cmd + L / ctrl + L
-<img width="800" height="1176" alt="Screenshot 2025-08-13 at 11 18 00 PM" src="https://github.com/user-attachments/assets/a85cc564-d917-442b-8491-3bb60b3a1475" />
+<img width="600" height="1176" alt="Screenshot 2025-08-13 at 11 18 00 PM" src="https://github.com/user-attachments/assets/a85cc564-d917-442b-8491-3bb60b3a1475" />
 
 #### top bar expands on hover
-<img width="800" height="1024" alt="Screenshot 2025-08-13 at 11 01 42 PM" src="https://github.com/user-attachments/assets/703c0087-7304-4cc6-aca5-26ece9aaddd3" />
+<img width="600" height="1024" alt="Screenshot 2025-08-13 at 11 01 42 PM" src="https://github.com/user-attachments/assets/703c0087-7304-4cc6-aca5-26ece9aaddd3" />
 
 #### i like it with the adaptive tab bar color extension - set tab bar darkness to -10%. some examples:
-<img width="800" height="1024" alt="Screenshot 2025-08-13 at 11 05 43 PM" src="https://github.com/user-attachments/assets/f2101e8e-5fd9-49d1-a440-52306ac84558" />
-<img width="800" height="980" alt="Screenshot 2025-08-13 at 11 08 19 PM" src="https://github.com/user-attachments/assets/a20dd80f-b5a0-4246-8532-b3ce2c311d07" />
+<img width="600" height="1024" alt="Screenshot 2025-08-13 at 11 05 43 PM" src="https://github.com/user-attachments/assets/f2101e8e-5fd9-49d1-a440-52306ac84558" />
+<img width="600" height="980" alt="Screenshot 2025-08-13 at 11 08 19 PM" src="https://github.com/user-attachments/assets/a20dd80f-b5a0-4246-8532-b3ce2c311d07" />
+
+#### ironically pretty good with horizontal tabs too
+<img width="600" height="1202" alt="Screenshot 2025-08-13 at 11 34 45 PM" src="https://github.com/user-attachments/assets/828b537d-8889-4f2b-85f0-947f5c3da9a3" />
+
 
 ## installation
 
