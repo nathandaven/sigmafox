@@ -1,0 +1,98 @@
+/* By Nathan Davenport */
+
+/* ==============================
+    Font Family
+    ============================== */
+
+body {
+  font-family: "SF Mono", monospace !important;
+}
+
+/* ==============================
+    Root Variables
+    ============================== */
+
+:root {
+  --tab-min-height: 20px !important;
+  --urlbar-container-height: 50px !important;
+  --urlbar-width: 500px !important;
+  --urlbar-height: 26px !important;
+}
+
+/* ==============================
+    Tabs Styling
+    ============================== */
+
+#tabbrowser-tabs[orient="vertical"] {
+  -moz-window-dragging: drag !important;
+}
+
+.tab-group-label {
+  #tabbrowser-tabs[orient="vertical"] & {
+    height: 15px !important;
+    min-height: auto !important;
+    line-height: 14px !important;
+  }
+}
+
+#tabbrowser-arrowscrollbox-periphery {
+  display: none !important;
+}
+
+/* ==============================
+    Tabbox Positioning & Animation
+    ============================== */
+
+#tabbrowser-tabbox {
+  position: relative;
+  top: -28px; /* 34px */
+  height: 100vh;
+  transition-duration: 50ms;
+  transition-timing-function: ease-in-out;
+  transition-property: top, height;
+  transition-delay: 500ms;
+}
+
+#navigator-toolbox:hover ~ #browser > #tabbrowser-tabbox {
+  top: 0px;
+  height: 100;
+  transition-delay: 0ms;
+}
+
+/* ==============================
+    Hide URL Bar & Center Command Bar
+    ============================== */
+
+#navigator-toolbox:hover ~ #navigator-toolbox > #tabbrowser-tabbox {
+  top: 0px;
+  height: 100%;
+}
+
+#urlbar-container {
+  position: absolute;
+  top: calc(50% - var(--urlbar-width) / 2);
+  left: calc(50% - var(--urlbar-width) / 2);
+  position: fixed;
+  transform: translate(-50%, -50%);
+  width: var(--urlbar-width) !important;
+}
+
+#urlbar {
+  width: var(--urlbar-width) !important;
+  font-size: 1.5em;
+  padding: 6px;
+  opacity: 0;
+  transform: translate(-500%, -500%);
+  transition: opacity 0ms;
+}
+
+/* ==============================
+    URL Bar Open State
+    ============================== */
+
+#urlbar[open=""] {
+  display: flex;
+  opacity: 1;
+  transform: translate(0%, 0%); /* hacky af but works */
+  transition: opacity 0ms;
+}
