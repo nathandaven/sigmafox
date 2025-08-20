@@ -15,7 +15,7 @@ body {
 :root {
   --tab-min-height: 20px !important;
   --urlbar-container-height: 50px !important;
-  --urlbar-width: 500px !important;
+  --urlbar-width: 700px !important;
   --urlbar-height: 26px !important;
 }
 
@@ -95,4 +95,12 @@ body {
   opacity: 1;
   transform: translate(0%, 0%); /* hacky af but works */
   transition: opacity 0ms;
+}
+
+/* ==============================
+    Super Mega Focus Mode when hiding sidebar
+    ============================== */
+
+#sidebar-main:not([sidebar-launcher-expanded]) {
+  display: none !important;
 }
