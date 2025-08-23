@@ -17,6 +17,7 @@ body {
   --urlbar-container-height: 50px !important;
   --urlbar-width: 700px !important;
   --urlbar-height: 26px !important;
+  --toolbarbutton-outer-padding: 0px !important;
 }
 
 /* ==============================
